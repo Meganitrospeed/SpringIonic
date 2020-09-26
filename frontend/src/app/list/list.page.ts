@@ -14,12 +14,13 @@ export class ListPage implements OnInit {
   constructor(private bicycleService: BicycleService) { }
 
   ngOnInit() {
-    
+    this.getAllBicycles();
   }
 
   getAllBicycles(){
     this.bicycleService.getBicycles().subscribe( bicycles => {
       this.bicycles = bicycles;
+      console.log(bicycles);
     });
 
   }
