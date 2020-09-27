@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add Bicycle</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="bicycleForm" (ngSubmit)="onFormSubmit()">
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">Model</ion-label>
+        <ion-input formControlName="model" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Brand</ion-label>
+        <ion-input formControlName="brand" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="primary" shape="full" expand="block">Add Bicycle</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-list>
+  </form>
+</ion-content>

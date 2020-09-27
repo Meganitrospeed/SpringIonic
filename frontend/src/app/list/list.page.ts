@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Bicycle } from '../models/bicycle';
 import { BicycleService } from '../services/bicycle.service';
 
@@ -11,9 +12,13 @@ export class ListPage implements OnInit {
 
   bicycles: Bicycle[];
 
-  constructor(private bicycleService: BicycleService) { }
+  constructor(private bicycleService: BicycleService, private router: Router) { }
 
   ngOnInit() {
+    this.getAllBicycles();
+  }
+
+  ionViewWillEnter(){
     this.getAllBicycles();
   }
 
@@ -23,6 +28,17 @@ export class ListPage implements OnInit {
       console.log(bicycles);
     });
 
+  }
+
+  deleteBicycle(id: number){
+    this.bicycleService.deleteBicycle(id).subscribe( () => {
+      this.getAllBicycles();
+    });
+  }
+
+  insertBicycle(){
+    console.log("from list page")
+    this.router.navigateByUrl("/add-bicycle");
   }
 
 }
