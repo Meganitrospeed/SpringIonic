@@ -1,6 +1,7 @@
 package com.tiburcio.superbikes.entity.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,7 @@ public class BicycleServiceImpl implements IBicycleService {
 
 	@Autowired
 	IBicycleDao bicycleDao;
-	
+
 	@Override
 	public List<Bicycle> getAll() {
 		// TODO Auto-generated method stub
@@ -21,14 +22,37 @@ public class BicycleServiceImpl implements IBicycleService {
 	}
 
 	@Override
-	public void deleteBicycle(int id) {
+	public void deleteBicycle(long id) {
 		// TODO Auto-generated method stub
 		bicycleDao.deleteById(id);
 	}
 
 	@Override
 	public void addBicycle(Bicycle bicycle) {
-			bicycleDao.save(bicycle);
+		bicycleDao.save(bicycle);
+	}
+
+	@Override
+	public Bicycle updateBicycle(Bicycle bicycle, long id) {
+		Optional<Bicycle> b = bicycleDao.findById(id);
+
+		if (b.isPresent()) {
+			bicycle.setId(id);
+			return bicycleDao.save(bicycle);
+		}
+
+		return null;
+	}
+
+	@Override
+	public Bicycle findOne(long id) {
+		Optional<Bicycle> b = bicycleDao.findById(id);
+
+		if (b.isPresent()) {
+			return b.get();
+		}
+
+		return null;
 	}
 
 }

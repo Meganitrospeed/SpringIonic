@@ -7,7 +7,11 @@ import com.tiburcio.superbikes.entity.models.Bicycle;
 public interface IBicycleService {
 	public List<Bicycle> getAll();
 
-	public void deleteBicycle(int id);
+	public void deleteBicycle(long id);
 
 	public void addBicycle(Bicycle bicycle);
+
+	public Bicycle updateBicycle(Bicycle bicycle, long id);
+
+	public Bicycle findOne(long id);
 }
