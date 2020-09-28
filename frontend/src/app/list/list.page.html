@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/home"></ion-back-button>
     </ion-buttons>
@@ -9,23 +9,25 @@
 
 <ion-content>
   <ion-card *ngFor="let b of bicycles">
-
-    <ion-card-header>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-      <ion-card-title>Card Title</ion-card-title>
-    </ion-card-header>
-
     <ion-card-content>
       marca: {{b.brand}}<br />
       modelo: {{b.model}}
     </ion-card-content>
-    <ion-buttons>
-      <ion-icon slot="icon-only" (click)="deleteBicycle(b.id)" name="trash-outline"></ion-icon>
-    </ion-buttons>
+    <ion-item lines="none">
+      <ion-buttons slot="end">
+        <ion-button (click)="deleteBicycle(b.id)" color="danger">
+          <ion-icon name="trash-outline"></ion-icon>
+        </ion-button>
+        <ion-button (click)="updateBicycle(b.id)" color="primary">
+          <ion-icon name="create-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-item>
   </ion-card>
-  <ion-buttons>
-    <ion-button (click)="insertBicycle()" block>
-      <ion-icon name="add-outline"></ion-icon>Insert Bicycle
-    </ion-button>
-  </ion-buttons>
+  <ion-item lines="none">
+      <ion-button (click)="insertBicycle()" slot="end">
+        <ion-icon name="add-outline" shape="full" expand="block"></ion-icon>Insert Bicycle
+      </ion-button>
+  </ion-item>
+
 </ion-content>

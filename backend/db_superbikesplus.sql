@@ -23,11 +23,11 @@ DROP TABLE IF EXISTS `bicycles`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `bicycles` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `model` varchar(45) NOT NULL,
   `brand` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `bicycles` (
 
 LOCK TABLES `bicycles` WRITE;
 /*!40000 ALTER TABLE `bicycles` DISABLE KEYS */;
-INSERT INTO `bicycles` VALUES (1,'BH','pinpin'),(2,'Orbea','ponpon');
+INSERT INTO `bicycles` VALUES (5,'bbbaaa','bbbdddd'),(6,'kk','kakota'),(7,'daniel','dolo'),(8,'ww','qq');
 /*!40000 ALTER TABLE `bicycles` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-09-25 10:44:41
+-- Dump completed on 2020-09-28 11:12:30

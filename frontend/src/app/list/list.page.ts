@@ -31,6 +31,7 @@ export class ListPage implements OnInit {
   }
 
   deleteBicycle(id: number){
+    console.log("deletiando")
     this.bicycleService.deleteBicycle(id).subscribe( () => {
       this.getAllBicycles();
     });
@@ -39,6 +40,13 @@ export class ListPage implements OnInit {
   insertBicycle(){
     console.log("from list page")
     this.router.navigateByUrl("/add-bicycle");
+  }
+
+  updateBicycle(id: number){
+    console.log("from list page");
+
+    this.bicycleService.setCurrentBicycleId(id);
+    this.router.navigateByUrl("/update-bicycle");
   }
 
 }

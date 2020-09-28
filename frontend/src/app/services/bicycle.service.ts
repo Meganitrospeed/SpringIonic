@@ -14,7 +14,17 @@ const apiUrl = 'http://localhost:8080/api/bicycles';
 })
 export class BicycleService {
 
+  currentBicycleId: number;
+
   constructor(private http: HttpClient) { }
+
+  setCurrentBicycleId(id: number){
+    this.currentBicycleId = id;
+  }
+
+  getCurrentBicycleId(): number{
+    return this.currentBicycleId;
+  }
 
   getBicycles(): Observable<Bicycle[]> {
     return this.http.get<Bicycle[]>(apiUrl);
@@ -38,6 +48,21 @@ export class BicycleService {
     let body = urlSearchParams.toString();
 
     return this.http.post(apiUrl, body, httpOptions);
+  }
+
+  updateBicycle(bicycle: Bicycle): Observable<any>{
+    console.log(bicycle)
+
+    let urlSearchParams = new URLSearchParams();
+    urlSearchParams.append('model', bicycle.model);
+    urlSearchParams.append('brand', bicycle.brand);
+    let body = urlSearchParams.toString();
+
+    return this.http.put(apiUrl + "/" + bicycle.id, body, httpOptions);
+  }
+
+  getBicycle(id:number): Observable<Bicycle> {
+    return this.http.get<Bicycle>(apiUrl + "/" + id);
   }
 
   // private handleError<T>(operation = 'operation', result?: T) {

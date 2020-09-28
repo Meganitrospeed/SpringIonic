@@ -1,6 +1,5 @@
 package com.tiburcio.superbikes.controllers;
 
-import java.io.Console;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +8,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tiburcio.superbikes.entity.models.Bicycle;
@@ -27,18 +27,24 @@ public class BicycleController {
 		return bicycleService.getAll();
 	}
 	
+	@GetMapping("/api/bicycles/{id}")
+	private Bicycle findOne(@PathVariable(value = "id") long id){
+		System.out.println(id);
+		return bicycleService.findOne(id);
+	}
+	
 	@DeleteMapping("/api/bicycles/{id}")
-	private void deleteBicycle(@PathVariable(value ="id") int id){
+	private void deleteBicycle(@PathVariable(value ="id") long id){
 		bicycleService.deleteBicycle(id);
 	}
 	
 	@PostMapping("/api/bicycles")
 	private void addBicycle(Bicycle bicycle){
-
-		//System.out.println("hola");
-		//System.out.println(bicycle.getModel());
-		//System.out.println(bicycle.getBrand());
-		
 		bicycleService.addBicycle(bicycle);
+	}
+	
+	@PutMapping("/api/bicycles/{id}")
+	private Bicycle updateBicycle(Bicycle bicycle, @PathVariable(value = "id") long id) {
+		return bicycleService.updateBicycle(bicycle, id);
 	}
 }
