@@ -16,8 +16,19 @@ public class BicycleServiceImpl implements IBicycleService {
 	
 	@Override
 	public List<Bicycle> getAll() {
-		// TODO Auto-generated method stub
 		return (List<Bicycle>) bicycleDao.findAll();
 	}
+
+	@Override
+	public void addBicycle(Bicycle bicycle) {
+		bicycleDao.save(bicycle);
+	}
+
+	@Override
+	public void deleteBicycle(int id) {
+		bicycleDao.deleteById(id);
+	}
+	
+	
 
 }
