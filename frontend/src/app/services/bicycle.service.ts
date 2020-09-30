@@ -23,6 +23,10 @@ export class BicycleService {
       //   // ,
       //   // catchError(this.handleError('getBicycles', []))
       // );
+  };
+
+  deleteBicycle(id: number): Observable<any>{
+    return this.http.delete(apiUrl + "/" + id);
   }
 
   // private handleError<T>(operation = 'operation', result?: T) {

@@ -18,5 +18,8 @@
       marca: {{b.brand}}<br /> 
       modelo: {{b.model}}
     </ion-card-content>
+    <ion-item>
+      <ion-icon (click)="deleteBicycle(b.id)" name="trash" slot="end"></ion-icon>
+    </ion-item>
   </ion-card>
 </ion-content>

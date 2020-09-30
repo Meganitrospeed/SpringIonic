@@ -24,5 +24,10 @@ export class ListPage implements OnInit {
     });
 
   }
-
+  
+  deleteBicycle(id: number){
+    this.bicycleService.deleteBicycle(id).subscribe( () => {
+      this.getAllBicycles();
+    })
+  }
 }
