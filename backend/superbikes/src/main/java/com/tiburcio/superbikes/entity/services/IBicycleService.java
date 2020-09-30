@@ -10,4 +10,6 @@ public interface IBicycleService {
 	public void addBicycle(Bicycle bicycle);
 
 	public void deleteBicycle(int id);
+
+	public void updateBicycle(int id, Bicycle bicycle);
 }
