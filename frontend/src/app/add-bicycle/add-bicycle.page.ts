@@ -35,6 +35,7 @@ export class AddBicyclePage implements OnInit {
       }
       this.bicycleService.addBicycle(bicycle)
         .subscribe((res) => {
+          console.log("por aquí pasó")
           this.router.navigateByUrl("/list");
         });
     }

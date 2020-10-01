@@ -6,7 +6,6 @@ import { catchError, tap, map } from 'rxjs/operators';
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Accept': 'application/json',
     'Content-Type': 'application/x-www-form-urlencoded'
   })
 };
@@ -36,8 +35,9 @@ export class BicycleService {
     let bodyEncoded = new URLSearchParams();
     bodyEncoded.append("model", bicycle.model);
     bodyEncoded.append("brand", bicycle.brand);
+    let body = bodyEncoded.toString();
 
-    return this.http.post(apiUrl, bodyEncoded, httpOptions)
+    return this.http.post(apiUrl, body, httpOptions);
   }
 
   // private handleError<T>(operation = 'operation', result?: T) {
