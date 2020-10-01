@@ -5,7 +5,10 @@ import { Observable, of } from 'rxjs';
 import { catchError, tap, map } from 'rxjs/operators';
 
 const httpOptions = {
-  headers: new HttpHeaders({'Content-Type': 'application/json'})
+  headers: new HttpHeaders({
+    'Accept': 'application/json',
+    'Content-Type': 'application/x-www-form-urlencoded'
+  })
 };
 const apiUrl = 'http://localhost:8080/api/bicycles';
 
@@ -27,6 +30,14 @@ export class BicycleService {
 
   deleteBicycle(id: number): Observable<any>{
     return this.http.delete(apiUrl + "/" + id);
+  }
+
+  addBicycle(bicycle: Bicycle): Observable<any>{
+    let bodyEncoded = new URLSearchParams();
+    bodyEncoded.append("model", bicycle.model);
+    bodyEncoded.append("brand", bicycle.brand);
+
+    return this.http.post(apiUrl, bodyEncoded, httpOptions)
   }
 
   // private handleError<T>(operation = 'operation', result?: T) {
