@@ -18,6 +18,10 @@ export class ListPage implements OnInit {
     this.getAllBicycles();
   }
 
+  ionViewWillEnter(){
+    this.getAllBicycles();
+  }
+
   getAllBicycles(){
     this.bicycleService.getBicycles().subscribe( bicycles => {
       this.bicycles = bicycles;
@@ -34,5 +38,10 @@ export class ListPage implements OnInit {
 
   insertBicycle(){
     this.router.navigateByUrl("/add-bicycle");
+  }
+
+  updateBicycle(id: number){
+    this.bicycleService.setCurrentBicycleId(id);
+    this.router.navigateByUrl("/update-bicycle");
   }
 }

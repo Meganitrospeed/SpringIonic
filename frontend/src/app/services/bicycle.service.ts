@@ -16,7 +16,21 @@ const apiUrl = 'http://localhost:8080/api/bicycles';
 })
 export class BicycleService {
 
+  currentBicycleId: number;
+
   constructor(private http: HttpClient) { }
+
+  setCurrentBicycleId(id: number){
+    this.currentBicycleId = id;
+  }
+
+  getCurrentBicycleId(): number {
+    return this.currentBicycleId;
+  }
+
+  getBicycleById(id: number): Observable<Bicycle> {
+    return this.http.get<Bicycle>(apiUrl + "/" + id);
+  }
 
   getBicycles(): Observable<Bicycle[]> {
     return this.http.get<Bicycle[]>(apiUrl);
@@ -39,6 +53,8 @@ export class BicycleService {
 
     return this.http.post(apiUrl, body, httpOptions);
   }
+
+  updateBicycle()
 
   // private handleError<T>(operation = 'operation', result?: T) {
   //   return (error: any): Observable<T> => {
