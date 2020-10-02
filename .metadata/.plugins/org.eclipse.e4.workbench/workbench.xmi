@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_R7VEoAMkEeuBHv1L9LKZaQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_R7VEoQMkEeuBHv1L9LKZaQ" bindingContexts="_R7XidAMkEeuBHv1L9LKZaQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleServiceImpl.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/services/BicycleServiceImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/services/BicycleServiceImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleController.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/controllers/BicycleController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/controllers/BicycleController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IBicycleService.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/services/IBicycleService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/services/IBicycleService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SuperbikesApplicationTests.java&quot; tooltip=&quot;superbikes/src/test/java/com/tiburcio/superbikes/SuperbikesApplicationTests.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/test/java/com/tiburcio/superbikes/SuperbikesApplicationTests.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;SpringBootPropertyEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;superbikes/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IBicycleDao.java&quot; tooltip=&quot;bicycles/src/main/java/com/tiburcio/bicycles/entity/dao/IBicycleDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/bicycles/src/main/java/com/tiburcio/bicycles/entity/dao/IBicycleDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IBicycleDao.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/dao/IBicycleDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/dao/IBicycleDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Bicycle.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/models/Bicycle.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/models/Bicycle.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleServiceImpl.java&quot; tooltip=&quot;bicycles/src/main/java/com/tiburcio/bicycles/entity/services/BicycleServiceImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/bicycles/src/main/java/com/tiburcio/bicycles/entity/services/BicycleServiceImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleController.java&quot; tooltip=&quot;bicycles/src/main/java/com/tiburcio/bicycles/controllers/BicycleController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/bicycles/src/main/java/com/tiburcio/bicycles/controllers/BicycleController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;SpringBootPropertyEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;superbikes/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleServiceImpl.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/services/BicycleServiceImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/services/BicycleServiceImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleController.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/controllers/BicycleController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/controllers/BicycleController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IBicycleService.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/services/IBicycleService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/services/IBicycleService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;SuperbikesApplicationTests.java&quot; tooltip=&quot;superbikes/src/test/java/com/tiburcio/superbikes/SuperbikesApplicationTests.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/test/java/com/tiburcio/superbikes/SuperbikesApplicationTests.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IBicycleDao.java&quot; tooltip=&quot;bicycles/src/main/java/com/tiburcio/bicycles/entity/dao/IBicycleDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/bicycles/src/main/java/com/tiburcio/bicycles/entity/dao/IBicycleDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IBicycleDao.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/dao/IBicycleDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/dao/IBicycleDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Bicycle.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/models/Bicycle.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/models/Bicycle.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleServiceImpl.java&quot; tooltip=&quot;bicycles/src/main/java/com/tiburcio/bicycles/entity/services/BicycleServiceImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/bicycles/src/main/java/com/tiburcio/bicycles/entity/services/BicycleServiceImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleController.java&quot; tooltip=&quot;bicycles/src/main/java/com/tiburcio/bicycles/controllers/BicycleController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/bicycles/src/main/java/com/tiburcio/bicycles/controllers/BicycleController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_R7VEoQMkEeuBHv1L9LKZaQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_R7VEogMkEeuBHv1L9LKZaQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -78,28 +78,37 @@
           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_R7VEpQMkEeuBHv1L9LKZaQ" selectedElement="_R7VEqwMkEeuBHv1L9LKZaQ" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_R7VEpgMkEeuBHv1L9LKZaQ" elementId="topLeft" containerData="2061" selectedElement="_R7VEpwMkEeuBHv1L9LKZaQ">
-              <children xsi:type="advanced:Placeholder" xmi:id="_R7VEpwMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_R7WS4QMkEeuBHv1L9LKZaQ" closeable="true">
-                <tags>View</tags>
-                <tags>categoryTag:General</tags>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_2RRmMATVEeu5d8Z8RHW8Qw" containerData="1684" selectedElement="_R7VEpgMkEeuBHv1L9LKZaQ">
+              <children xsi:type="basic:PartStack" xmi:id="_R7VEpgMkEeuBHv1L9LKZaQ" elementId="topLeft" containerData="5000" selectedElement="_R7VEpwMkEeuBHv1L9LKZaQ">
+                <children xsi:type="advanced:Placeholder" xmi:id="_R7VEpwMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_R7WS4QMkEeuBHv1L9LKZaQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_R7VEqAMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_R7WTPwMkEeuBHv1L9LKZaQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_R7VEqQMkEeuBHv1L9LKZaQ" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_R7WTQAMkEeuBHv1L9LKZaQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Java</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_R7VEqgMkEeuBHv1L9LKZaQ" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_R7WTQQMkEeuBHv1L9LKZaQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Java Browsing</tags>
+                </children>
               </children>
-              <children xsi:type="advanced:Placeholder" xmi:id="_R7VEqAMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_R7WTPwMkEeuBHv1L9LKZaQ" closeable="true">
-                <tags>View</tags>
-                <tags>categoryTag:General</tags>
-              </children>
-              <children xsi:type="advanced:Placeholder" xmi:id="_R7VEqQMkEeuBHv1L9LKZaQ" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_R7WTQAMkEeuBHv1L9LKZaQ" closeable="true">
-                <tags>View</tags>
-                <tags>categoryTag:Java</tags>
-              </children>
-              <children xsi:type="advanced:Placeholder" xmi:id="_R7VEqgMkEeuBHv1L9LKZaQ" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_R7WTQQMkEeuBHv1L9LKZaQ" closeable="true">
-                <tags>View</tags>
-                <tags>categoryTag:Java Browsing</tags>
+              <children xsi:type="basic:PartStack" xmi:id="_2RRmMQTVEeu5d8Z8RHW8Qw" elementId="PartStack@32b92218" containerData="5000" selectedElement="_R7VEvwMkEeuBHv1L9LKZaQ">
+                <children xsi:type="advanced:Placeholder" xmi:id="_R7VEvwMkEeuBHv1L9LKZaQ" elementId="org.springframework.ide.eclipse.boot.dash.views.BootDashView" ref="_R7W55gMkEeuBHv1L9LKZaQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Other</tags>
+                </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_R7VEqwMkEeuBHv1L9LKZaQ" containerData="7939" selectedElement="_R7VErAMkEeuBHv1L9LKZaQ" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_R7VEqwMkEeuBHv1L9LKZaQ" containerData="8316" selectedElement="_R7VErAMkEeuBHv1L9LKZaQ" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_R7VErAMkEeuBHv1L9LKZaQ" containerData="6295" selectedElement="_R7VErgMkEeuBHv1L9LKZaQ">
-                <children xsi:type="advanced:Placeholder" xmi:id="_R7VErQMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.editorss" containerData="6540" ref="_R7WS2QMkEeuBHv1L9LKZaQ"/>
-                <children xsi:type="basic:PartStack" xmi:id="_R7VErgMkEeuBHv1L9LKZaQ" elementId="bottomRight" containerData="3460" selectedElement="_R7VEtgMkEeuBHv1L9LKZaQ">
+                <children xsi:type="advanced:Placeholder" xmi:id="_R7VErQMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.editorss" containerData="2949" ref="_R7WS2QMkEeuBHv1L9LKZaQ"/>
+                <children xsi:type="basic:PartStack" xmi:id="_R7VErgMkEeuBHv1L9LKZaQ" elementId="bottomRight" containerData="7051" selectedElement="_R7VEtgMkEeuBHv1L9LKZaQ">
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_R7VErwMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.views.AllMarkersView" ref="_R7WTQgMkEeuBHv1L9LKZaQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -146,7 +155,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_R7VEugMkEeuBHv1L9LKZaQ" elementId="topRight" visible="false" containerData="1705" selectedElement="_R7VEvwMkEeuBHv1L9LKZaQ">
+              <children xsi:type="basic:PartStack" xmi:id="_R7VEugMkEeuBHv1L9LKZaQ" elementId="topRight" visible="false" containerData="1705" selectedElement="_R7VEuwMkEeuBHv1L9LKZaQ">
                 <tags>General</tags>
                 <tags>Minimized</tags>
                 <tags>Other</tags>
@@ -165,10 +174,6 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_R7VEvgMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.console.ConsoleView:Console View #1" ref="_R7W54wMkEeuBHv1L9LKZaQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
-                </children>
-                <children xsi:type="advanced:Placeholder" xmi:id="_R7VEvwMkEeuBHv1L9LKZaQ" elementId="org.springframework.ide.eclipse.boot.dash.views.BootDashView" ref="_R7W55gMkEeuBHv1L9LKZaQ" closeable="true">
-                  <tags>View</tags>
-                  <tags>categoryTag:Other</tags>
                 </children>
               </children>
             </children>
@@ -215,17 +220,14 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_R7WS2QMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.editorss" selectedElement="_R7WS2gMkEeuBHv1L9LKZaQ">
-      <children xsi:type="basic:PartStack" xmi:id="_R7WS2gMkEeuBHv1L9LKZaQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_R7WS2wMkEeuBHv1L9LKZaQ">
+      <children xsi:type="basic:PartStack" xmi:id="_R7WS2gMkEeuBHv1L9LKZaQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_7aO2MAPnEeuClaxkeE_nSg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_R7WS2wMkEeuBHv1L9LKZaQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BicycleController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleController.java&quot; partName=&quot;BicycleController.java&quot; title=&quot;BicycleController.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/controllers/BicycleController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/controllers/BicycleController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;872&quot; selectionTopPixel=&quot;30&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BicycleController.java&quot; partName=&quot;BicycleController.java&quot; title=&quot;BicycleController.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/controllers/BicycleController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/controllers/BicycleController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;903&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_R7WS3wMkEeuBHv1L9LKZaQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="IBicycleService.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IBicycleService.java&quot; partName=&quot;IBicycleService.java&quot; title=&quot;IBicycleService.java&quot; tooltip=&quot;superbikes/src/main/java/com/tiburcio/superbikes/entity/services/IBicycleService.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/superbikes/src/main/java/com/tiburcio/superbikes/entity/services/IBicycleService.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;347&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -238,6 +240,12 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_7aO2MAPnEeuClaxkeE_nSg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="application.properties" iconURI="platform:/plugin/org.springframework.tooling.boot.ls/icons/spring_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;SpringBootPropertyEditor&quot; name=&quot;application.properties&quot; partName=&quot;application.properties&quot; title=&quot;application.properties&quot; tooltip=&quot;superbikes/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/superbikes/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;207&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;314&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>SpringBootPropertyEditor</tags>
         </children>
       </children>
     </sharedElements>
@@ -325,6 +333,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_R7WTTAMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -359,7 +369,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_R7W54AMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.views.ContentOutline" visible="false"/>
+      <toolbar xmi:id="_R7W54AMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.views.ContentOutline"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_R7W54QMkEeuBHv1L9LKZaQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Task List" iconURI="platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.mylyn.internal.tasks.ui.views.TaskListView"/>
@@ -395,7 +405,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_R7W56AMkEeuBHv1L9LKZaQ" elementId="org.springframework.ide.eclipse.boot.dash.views.BootDashView" visible="false"/>
+      <toolbar xmi:id="_R7W56AMkEeuBHv1L9LKZaQ" elementId="org.springframework.ide.eclipse.boot.dash.views.BootDashView"/>
     </sharedElements>
     <trimBars xmi:id="_R7W56QMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.platform">
       <children xsi:type="menu:ToolBar" xmi:id="_R7W56gMkEeuBHv1L9LKZaQ" elementId="group.file" toBeRendered="false">
@@ -404,7 +414,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R7W57AMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_h15bMAM1EeuVNcl_jB5mjQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_R7bzBQMkEeuBHv1L9LKZaQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Kbad4ATOEeu5d8Z8RHW8Qw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_R7bzBQMkEeuBHv1L9LKZaQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R7W5-QMkEeuBHv1L9LKZaQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -426,7 +436,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_R7W6SQMkEeuBHv1L9LKZaQ" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_R7W6TgMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_R7W6TgMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R7W6WQMkEeuBHv1L9LKZaQ" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet">
@@ -441,7 +451,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R7W6YQMkEeuBHv1L9LKZaQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_h2AI4AM1EeuVNcl_jB5mjQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_R7byqgMkEeuBHv1L9LKZaQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Kbf9cATOEeu5d8Z8RHW8Qw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_R7byqgMkEeuBHv1L9LKZaQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_R7W6bQMkEeuBHv1L9LKZaQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
