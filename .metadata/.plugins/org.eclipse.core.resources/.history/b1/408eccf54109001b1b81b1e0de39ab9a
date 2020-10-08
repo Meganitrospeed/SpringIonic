@@ -1,0 +1,5 @@
+package com.tiburcio.superbikes.entity.models;
+
+public class Country {
+
+}
