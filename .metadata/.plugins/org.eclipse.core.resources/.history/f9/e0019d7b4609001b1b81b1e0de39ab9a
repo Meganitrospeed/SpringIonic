@@ -1,0 +1,5 @@
+package com.tiburcio.superbikes.entity.services;
+
+public interface ICountryService {
+
+}

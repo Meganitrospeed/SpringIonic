@@ -1,0 +1,33 @@
+package com.tiburcio.superbikes.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tiburcio.superbikes.entity.models.Bicycle;
+import com.tiburcio.superbikes.entity.models.Country;
+import com.tiburcio.superbikes.entity.services.ICountryService;
+
+@CrossOrigin(origins = "http://localhost:8100")
+@RestController
+public class CountryController {
+	
+	@Autowired
+	ICountryService countryService;
+	
+	@GetMapping("/api/countries")
+	private List<Country> getCountries(){
+		return countryService.getAllCountries();
+	}
+	
+	@GetMapping("/api/countries/{id}/bicycles")
+	private List<Bicycle> getBicyclesFromACountry(@PathVariable(value = "id") int id){
+		return countryService.getBicyclesFromACountry(id);
+	}
+	
+	
+}
