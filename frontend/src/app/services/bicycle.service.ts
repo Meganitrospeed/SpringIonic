@@ -54,7 +54,14 @@ export class BicycleService {
     return this.http.post(apiUrl, body, httpOptions);
   }
 
-  updateBicycle()
+  updateBicycle(id: number, bicycle: Bicycle): Observable<any>{
+    let bodyEncoded = new URLSearchParams();
+    bodyEncoded.append("model", bicycle.model);
+    bodyEncoded.append("brand", bicycle.brand);
+    let body = bodyEncoded.toString();
+    
+    return this.http.put(apiUrl + "/" + id, body, httpOptions);
+  }
 
   // private handleError<T>(operation = 'operation', result?: T) {
   //   return (error: any): Observable<T> => {
